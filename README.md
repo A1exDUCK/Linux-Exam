@@ -51,7 +51,7 @@ mkdir -p ~/app
 **Шаг 3 (Скачиваем приложение)**
 ```
 cd ~/app
-git clone https://github.com/BlackCoffeeCoding/MySimpleApi.git
+git clone https://github.com/A1exDUCK/Linux-Exam.git
 cd MySimpleApi
 ```
 
@@ -76,7 +76,7 @@ Restart=always
 RestartSec=10
 KillSignal=SIGINT
 SyslogIdentifier=dotnet-api
-User=dmitry
+User=alexduck
 Environment=ASPNETCORE_URLS=http://0.0.0.0:5000
 Environment=ASPNETCORE_ENVIRONMENT=Production
 Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
